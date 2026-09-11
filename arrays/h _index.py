@@ -1,4 +1,4 @@
- class Solution:
+class Solution:
     def hIndex(self, citations: list[int]) -> int:
         n = len(citations)
         buckets = [0] * (n + 1)
